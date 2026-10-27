@@ -186,10 +186,10 @@ h1, h2, h3, p { margin-top: 0; }
 
 
 .visual-section { background: #fff; padding-block: 50px 62px; }
-.visual-section-heading { display: block; margin-bottom: 24px; }
+.visual-section-heading { display: block; margin-bottom: 24px; text-align: center; }
 .visual-section-heading h2 { margin: 10px 0 7px; font-size: clamp(30px, 3.5vw, 38px); line-height: 1.3; }
-.visual-section-heading .visual-intro { max-width: 660px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.75; text-align: left; }
-.visual-capabilities { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.visual-section-heading .visual-intro { max-width: 660px; margin: 0 auto; color: var(--muted); font-size: 13px; line-height: 1.75; text-align: center; }
+.visual-capabilities { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 18px; }
 .visual-capabilities span { padding: 7px 11px; border: 1px solid #dce4dc; background: #f8faf7; color: var(--forest); font-size: 11px; line-height: 1.5; }
 .visual-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .visual-card { min-width: 0; overflow: hidden; border: 1px solid var(--line); background: #fff; }
