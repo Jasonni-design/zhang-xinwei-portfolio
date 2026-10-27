@@ -67,6 +67,7 @@ h1, h2, h3, p { margin-top: 0; }
 .section-heading h2, .contact-copy h2 { margin: 12px 0 0; font: 600 clamp(32px, 4vw, 43px)/1.35 var(--serif); letter-spacing: .01em; }
 .section-intro { margin: 0 0 3px; color: var(--muted); font-size: 10px; line-height: 1.8; text-align: right; }
 .experience-list { border-top: 1px solid var(--line); }
+.experience-group-label { margin: 19px 0 0; }
 .experience-card { display: grid; grid-template-columns: 185px minmax(0, 1fr); gap: 34px; padding: 25px 0 27px; border-bottom: 1px solid var(--line); }
 .experience-date { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; color: var(--accent); font: 11px var(--mono); }
 .status-dot { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font: 10px var(--sans); }
