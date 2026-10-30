@@ -216,3 +216,9 @@ h1, h2, h3, p { margin-top: 0; }
   .visual-copy { padding: 15px 16px 16px; }
   .visual-copy p { min-height: 0; }
 }
+
+/* HR training certificate */
+.certificate-card { margin: 24px 0 0; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.certificate-card .recommendation-toolbar a { color: var(--forest); white-space: nowrap; }
+.certificate-image-link { display: block; width: min(100%, 400px); margin: 24px auto; padding: 0 16px; box-sizing: border-box; }
+.certificate-image-link img { display: block; width: 100%; height: auto; }
